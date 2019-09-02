@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({ foo: 'bar' })
+  res.json({ foo: 'bar' });
 });
 
 module.exports = app;
