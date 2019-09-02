@@ -8,7 +8,7 @@
     "build": "npx babel  src -d build",
     "start": "nodemon --exec ./node_modules/@babel/node/bin/babel-node.js src/index",
     "test": "jest",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged && yarn test"
   },
   "lint-staged": {
     "**/*.js": [
